@@ -9,7 +9,7 @@ public class Maze {
         return false;
     }
 
-    public static boolean pathFinder(int[][] maze, int r, int c, ArrayList<String> solutions) { //solves the maze - DFS
+    public static boolean pathFinder(int[][] maze, int r, int c, ArrayList<String> solutions) { //solves the maze - DFS. 
         if  (maze[r][c] == 9) {
             solutions.add(r + ", " + c);
             return true;
